@@ -1,4 +1,4 @@
-/*=================== Обнуление стилей ======================*/
+/*=================== Custom styles ======================*/
 h1,
 h2,
 h3,
@@ -40,7 +40,7 @@ a {
    --acent-color: #E7E9FC;
    --light-color: #F4F4FD;
 }
-/*================ Общие стили =================*/
+/*================ Спільні стилі =================*/
 body {
    font-family: 'Roboto', sans-serif;
    letter-spacing: 0.02em;
@@ -95,7 +95,7 @@ img {
    align-items: center;
    position: relative;
 }
-/*menu-shadow используеться в портфолио*/
+/*menu-shadow використовується у портфоліо*/
 .menu-shadow {
    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -218,7 +218,7 @@ img {
       font-size: inherit;
    }
 }
-/*================== MENU BURGER ================== */
+/*================== Burger-menu ================== */
 .menu-btn {
    display: inline-flex;
    margin: 0;
@@ -386,7 +386,7 @@ img {
       display: none;
    }
 }
-/*============ HERO ================== */
+/*============ Hero ================== */
 .hero-section {
    padding: 112px 0px;
    max-width: 1600px;
@@ -486,7 +486,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
       height: 600px;
    }
 }
-/*==================== LIST ======================*/
+/*==================== List ======================*/
 .list-container {
    padding-bottom: 96px;
 }
@@ -574,7 +574,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
       font-weight: 400;
    }
 }
-/*=========================== DOING ====================*/
+/*=========================== What are we doing section ====================*/
 .doing-section {
    display: none;
    padding-bottom: 120px;
@@ -605,7 +605,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
       padding-bottom: 120px;
    }
 }
-/*=========================== TEAM ============================*/
+/*=========================== Team-section ============================*/
 .team-section {
    padding-bottom: 96px;
 
@@ -705,7 +705,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
       margin-right: 0px;
    }
 }
-/*=========================== CUSTOMERS ============================*/
+/*=========================== Customers-section ============================*/
 .customers-section {
    padding-bottom: 96px;
 }
@@ -772,7 +772,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
       padding-bottom: 120px;
    }
 }
-/*=========================== PORTFOLIO ============================*/
+/*=========================== Portfolio ============================*/
 .portfolio-section {
    padding-bottom: 48px;
 }
@@ -910,7 +910,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
    margin-bottom: 0px;
    }
 }
-/*=========================== FOOTER ============================*/
+/*=========================== footer-section ============================*/
 .footer-section {
    padding: 96px 0px;
    background-color: #2E2F42;
@@ -1086,7 +1086,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
       margin-bottom: 0px;
    }
 }
-/*=========================== BACKDROP ============================*/
+/*=========================== backdrop ============================*/
 .backdrop {
    position: fixed;
    z-index: 60;
