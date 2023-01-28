@@ -44,7 +44,13 @@ p {
     background-color: #FFFDEE;
 }
 
+.button-container {
+    margin-top: 49px;
+    margin-bottom: 37px;
+}
+
 .button {
+    
     box-sizing: border-box;
     background: #000000;
     color: #ffffff;
@@ -52,6 +58,8 @@ p {
 
 border: 1px solid #F3C653;
 border-radius: 25px;
+}
 
+.checker {
 
 }
