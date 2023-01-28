@@ -23,3 +23,17 @@
     --color-modal-placeholder: rgba(128, 128, 128, 1);
 }
 
+
+.section-description {
+    padding: 0px 15px;
+    margin: 0 auto;
+    background-color: #FFFDEE;
+}
+
+.button {
+    background: #000000;
+/* Желтый основной */
+
+border: 1px solid #F3C653;
+border-radius: 25px;
+}
