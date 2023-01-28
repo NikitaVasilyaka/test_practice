@@ -38,10 +38,24 @@ p {
     list-style: none;
 }
 
-.section-description {
+.list .list-item {
+    padding-bottom: 32px;
+}
+
+.list-title {
+
+}
+
+.list-paragraph {
+
+}
+
+.section-description-container {
     padding: 0px 15px;
     margin: 0 auto;
     background-color: #FFFDEE;
+}
+.section-description {
 }
 
 .button-container {
@@ -50,7 +64,8 @@ p {
 }
 
 .button {
-    
+    width: 384px;
+    height: 64px;
     box-sizing: border-box;
     background: #000000;
     color: #ffffff;
@@ -58,8 +73,10 @@ p {
 
 border: 1px solid #F3C653;
 border-radius: 25px;
-}
-
-.checker {
 
 }
+.button:hover {
+    background-color: #F3C653;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
