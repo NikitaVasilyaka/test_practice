@@ -45,9 +45,13 @@ p {
 }
 
 .button {
+    box-sizing: border-box;
     background: #000000;
+    color: #ffffff;
 /* Желтый основной */
 
 border: 1px solid #F3C653;
 border-radius: 25px;
+
+
 }
