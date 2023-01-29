@@ -68,6 +68,9 @@ border-radius: 25px;
     background-color: #F3C653;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+.button:focus {
+    color: #F3C653;
+}
 
 .button-checker {
     color: #C79002;
