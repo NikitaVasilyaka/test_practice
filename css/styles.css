@@ -23,41 +23,39 @@
     --color-modal-placeholder: rgba(128, 128, 128, 1);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
+
+.title {
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.title .paragraph {
+    padding: 0px 15px;
+    margin: 0 auto;
 }
 
 .list {
     list-style: none;
 }
 
-.list .list-item {
-    padding-bottom: 32px;
-}
+
 
 .list-paragraph {
 
 }
 
 .paragraph-box {
+display: inline-flex;
+column-gap: 164px;
 
 }
 
 
 
-.section-description-container {
+.section-description {
     padding: 0px 15px;
     margin: 0 auto;
     background-color: #FFFDEE;
-}
-.section-description {
 }
 
 .button-container {
