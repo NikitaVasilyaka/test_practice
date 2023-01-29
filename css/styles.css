@@ -23,15 +23,14 @@
     --color-modal-placeholder: rgba(128, 128, 128, 1);
 }
 
+.section-description-container {
 
-.title {
-    padding: 0px 15px;
-    margin: 0 auto;
 }
 
-.title .paragraph {
+.section-description {
     padding: 0px 15px;
     margin: 0 auto;
+    background-color: #FFFDEE;
 }
 
 .list {
@@ -50,13 +49,6 @@ column-gap: 164px;
 
 }
 
-
-
-.section-description {
-    padding: 0px 15px;
-    margin: 0 auto;
-    background-color: #FFFDEE;
-}
 
 .button-container {
     margin-top: 49px;
