@@ -23,15 +23,14 @@
     --color-modal-placeholder: rgba(128, 128, 128, 1);
 }
 
+
+
 .section-description-container {
     padding: 0px 15px;
     margin: 0 auto;
     background-color: #FFFDEE;
 }
 
-.section-description {
-
-}
 
 .list {
     list-style: none;
@@ -47,6 +46,8 @@ column-gap: 164px;
 
 
 .button-container {
+    display: flex;
+    justify-content: flex-end;
     margin-top: 49px;
     margin-bottom: 37px;
 }
@@ -66,5 +67,12 @@ border-radius: 25px;
 .button:hover {
     background-color: #F3C653;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button-checker {
+    color: #C79002;
+    display: flex;
+    justify-content: flex-end;
+
 }
 
