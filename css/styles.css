@@ -17,11 +17,16 @@
     list-style: none;
 }
 
+.list-paragraph {
+    display: inline-flex;
+    column-gap: 164px;
+}
+
 
 
 .paragraph-box {
-display: inline-flex;
-column-gap: 164px;
+    display: inline-flex;
+    column-gap: 164px;
 
 }
 
@@ -43,6 +48,7 @@ column-gap: 164px;
 
 border: 1px solid #F3C653;
 border-radius: 25px;
+
 
 }
 .button:hover {
