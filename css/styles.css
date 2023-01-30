@@ -29,8 +29,10 @@
 
 
 .buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     outline: 1px solid tomato;
-    align-content: flex-end;
 }
 
 
