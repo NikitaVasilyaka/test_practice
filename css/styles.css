@@ -11,24 +11,35 @@
     padding-top: 54px;
 }
 
-
+.link {
+    text-decoration: none;
+}
 
 .list {
     list-style: none;
 }
 
-
+.title {
+    text-transform: uppercase;
+}
+.list-title {
+    text-transform: uppercase;
+}
 .paragraph-box {
     display: inline-flex;
     column-gap: 82px;
 }
 
 
+.buttons-container {
+    padding-bottom: 50px;
+}
+
 .button-container {
     display: flex;
     justify-content: flex-end;
     margin-top: 49px;
-    margin-bottom: 37px;
+    margin-bottom: 36px;
 }
 
 .button {
@@ -37,22 +48,20 @@
     box-sizing: border-box;
     background: #000000;
     color: #ffffff;
-/* Желтый основной */
 
-border: 1px solid #F3C653;
-border-radius: 25px;
+    font-size: 24px;
+    font-weight: 500;
 
-
+    border: 1px solid #F3C653;
+    border-radius: 25px;
 }
 .button:hover {
     background-color: #F3C653;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.button:focus {
-    color: #F3C653;
+    color: #000000;
 }
 
-.button-checker {
+.anchor-button {
     color: #C79002;
     display: flex;
     justify-content: flex-end;
