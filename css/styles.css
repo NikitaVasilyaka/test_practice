@@ -11,9 +11,6 @@
     padding-top: 54px;
 }
 
-.link {
-    text-decoration: none;
-}
 
 .list {
     list-style: none;
@@ -32,12 +29,11 @@
 
 
 .buttons-container {
-    padding-bottom: 50px;
+    outline: 1px solid tomato;
+    
 }
 
 .button-container {
-    display: flex;
-    justify-content: flex-end;
     margin-top: 49px;
     margin-bottom: 36px;
 }
@@ -63,8 +59,11 @@
 
 .anchor-button {
     color: #C79002;
-    display: flex;
-    justify-content: flex-end;
 
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: #C79002;
 }
 
