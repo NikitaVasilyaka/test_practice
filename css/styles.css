@@ -30,13 +30,10 @@
 
 .buttons-container {
     outline: 1px solid tomato;
-    
+    align-content: flex-end;
 }
 
-.button-container {
-    margin-top: 49px;
-    margin-bottom: 36px;
-}
+
 
 .button {
     width: 384px;
@@ -57,13 +54,11 @@
     color: #000000;
 }
 
-.anchor-button {
-    color: #C79002;
-
-}
 
 .anchor-link {
     text-decoration: none;
     color: #C79002;
 }
-
+.anchor-link:hover {
+    color: #F3C653;
+}
