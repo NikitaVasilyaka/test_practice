@@ -77,6 +77,8 @@
     width: 22px;
     height: 12px;
     margin-left: 18px;
+
+    color: #C79002;
 }
 .anchor:hover {
     color: #F3C653;
