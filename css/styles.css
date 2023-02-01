@@ -76,6 +76,7 @@
     width: 22px;
     height: 12px;
     margin-left: 18px;
+    outline: 1px solid tomato;
 
     color: #C79002;
 }
